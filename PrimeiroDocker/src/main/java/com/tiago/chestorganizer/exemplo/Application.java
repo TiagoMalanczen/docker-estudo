@@ -14,7 +14,7 @@ public class Application {
     }
 
     @GetMapping("/")
-    public String home() {
-        return "Aplicação Java 21 rodando via Docker!";
+    public String status() {
+        return "API Java 21 rodando dentro do Docker!";
     }
 }
